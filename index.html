@@ -88,6 +88,7 @@
 <div class="footer">
   <div class="footer-icon rsvp" onclick="toggleSection('Seksyen RSVP')">💌<span>RSVP</span></div>
   <div class="footer-icon money" onclick="toggleSection('Seksyen Money Gift')">💵<span>Money Gift</span></div>
+  <div class="footer-icon wishlist" onclick="toggleSection('Seksyen Wishlist')">🎁<span>Wishlist</span></div>
   <div class="footer-icon contact" onclick="toggleSection('Seksyen Contact')">📞<span>Contact</span></div>
   <div class="footer-icon location" onclick="toggleSection('Seksyen Location')">📍<span>Location</span></div>
 </div>
@@ -289,6 +290,26 @@
   <p>Imbas kod QR</p>
   <img src="QR.png" alt="Kod QR" class="qr-image" /><br><br><br><br>
 </section>
+
+  <!-- ✅ Seksyen Wishlist (Ringkasan) -->
+<section id="Seksyen Wishlist" class="hidden-section">
+  <h2>🎁 Wishlist</h2>
+
+  <div style="text-align: center; margin-bottom: 20px;">
+  <h3><strong>Alamat Penghantaran</strong></h3>
+  <div id="alamat-text" style="background-color: #f2f2f2; padding: 10px; border-radius: 8px; max-width: 320px; margin: 0 auto;">
+      No.18, Jalan Galaksi 2/8,<br>
+      Bandar Mahkota Banting,<br>
+      42700 Banting, Selangor
+  </div>
+  <button class="copy-btn" onclick="copyToClipboard('alamat-text')" style="max-width: 320px; width: 100%;">Copy</button>
+
+  <h3 style="margin-top: 20px;"><strong>Nombor Telefon</strong></h3>
+  <div id="telefon-text" style="background-color: #f2f2f2; padding: 10px; border-radius: 8px; max-width: 320px; margin: 0 auto;">
+    0147182985
+  </div>
+  <button class="copy-btn" onclick="copyToClipboard('telefon-text')" style="max-width: 320px; width: 100%;">Copy</button>
+</div>
 
   
 <!-- ✅ Seksyen Contact -->
